@@ -86,6 +86,9 @@ if ( ! function_exists( 'related_posts_by_taxonomy_init' ) ) {
 		// Plugin.
 		require_once RELATED_POSTS_BY_TAXONOMY_PLUGIN_DIR . 'includes/class-plugin.php';
 
+    // The related post thumbnail gallery.
+    require_once RELATED_POSTS_BY_TAXONOMY_PLUGIN_DIR . 'includes/thumbnail.php';
+
 		// Instantiate the plugin class.
 		$related_posts = new Related_Posts_By_Taxonomy_Plugin();
 		$related_posts->init();

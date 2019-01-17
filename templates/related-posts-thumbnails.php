@@ -56,7 +56,7 @@
 		);
 
 		// Plugin function to display the galllery in /includes/gallery.php
-		echo km_rpbt_related_posts_by_taxonomy_gallery( $args, $related_posts );
+		echo related_posts_thumbnail( $args, $related_posts );
 	?>
 
 <?php else : ?>
