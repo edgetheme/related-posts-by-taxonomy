@@ -42,7 +42,7 @@ class Related_Posts_By_Taxonomy extends WP_Widget {
 
 		/* Widget settings. */
 		$widget_ops = array(
-			'classname'                   => 'related_posts_by_taxonomy',
+			'classname'                   => 'related-posts',
 			'description'                 => $widget['description'],
 			'customize_selective_refresh' => true,
 		);
