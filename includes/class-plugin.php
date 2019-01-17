@@ -44,7 +44,7 @@ if ( ! class_exists( 'Related_Posts_By_Taxonomy_Plugin' ) ) {
 
 		public function enqueue_scripts() {
 			$file = RELATED_POSTS_BY_TAXONOMY_PLUGIN_URL . 'includes/assets/css/styles.css';
-			wp_enqueue_style( 'related-posts-by-taxonomy', $file );
+			// wp_enqueue_style( 'related-posts-by-taxonomy', $file );
 		}
 
 		/**
