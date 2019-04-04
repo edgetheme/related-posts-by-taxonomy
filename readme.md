@@ -4,6 +4,8 @@ Version:           2.6.0
 Requires at least: 4.1  
 Tested up to:      5.0  
 
+Modified by [marvapp](https://wwww.marvapp.com/)
+
 ### Welcome to the GitHub repository for this plugin ###
 This is the development repository for the WordPress plugin [Related Posts by Taxonomy](https://wordpress.org/plugins/related-posts-by-taxonomy).
 
